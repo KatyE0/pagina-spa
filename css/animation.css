@@ -1,0 +1,52 @@
+.animateicon:hover {transition: all 1s;}
+@keyframes juego {
+    to {rotate: 0deg;}
+    25% {rotate: -60deg;}
+    75% {rotate: 60deg;}
+    from {rotate: 0deg;}
+}
+
+.bars__menu {cursor: pointer;}
+
+.bars__menu svg rect {width: 100%; transition: all 1s;}
+
+.activeline1__bars-menu {transform:rotate(40deg) translate3d(10px, -160px, 0px);}
+
+.activeline2__bars-menu {opacity: 0; margin-left: -30px;}
+
+.activeline3__bars-menu {transform:rotate(-40deg) translate3d(-225px, 0px, 0px)}
+/* 
+.animadoizq {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .mostrarIzquierda {
+    animation: mostrarIzquierda 1s;
+  }
+  @keyframes mostrarIzquierda {
+    0% {transform: translateX(-70px);}
+    100% {transform: translateX(0);}
+  } */
+  .animado {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .mostrarDerecha {
+    animation: mostrarDerecha 1s;
+  }
+  @keyframes mostrarDerecha {
+    0% {transform: translateX(70px);}
+    100% {transform: translateX(0);}
+  }
+
+  .animadodos {
+    opacity: 0;
+    transition: all 0.5s;
+  }
+  .mostrarDOS {
+    animation: mostrarDerecha 1s;
+  }
+  @keyframes mostrarDOS {
+    0% {transform: translateX(-66.7%);}
+    100% {transform: translateX(150%);}
+  }

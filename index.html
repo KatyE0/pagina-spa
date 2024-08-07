@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="generator" content="">
+
+
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="css/normalize.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/animation.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+    <link rel="icon" href="img/Violeta.ico" />
+    
+    <link rel="stylesheet" href="css/loader.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Violeta skincare</title>
+</head>
+
+<body>
+
+    <!-- loader-area -->
+    <div class="contenedorloader">
+        <div class="custom-loader"></div>
+    </div>
+    <!-- loader-area-end -->
+
+    <!-- header area  -->
+    <header id="hedervideo">
+        <section class="headercontainer animacionscroll">
+            <!-- menu de navegación -->
+            <nav class="navbar">
+                <div class="container">
+                    <!-- Boton menu -->
+                    <button class="navbar-toggler bars__menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample01" aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+                        <svg class="menuicono" width="36" height="36" viewBox="0 0 500 441.683" style="fill: rgba(255, 255, 255, 1);" xmlns="http://www.w3.org/2000/svg">
+                            <rect class="line1__bars-menu" x="69.79" y="100" width="369.025" height="36.329" style="stroke: rgb(0, 0, 0); paint-order: stroke markers;">
+                            </rect>
+                            <rect class="line2__bars-menu" x="69.79" y="200" width="369.025" height="36.329" style="stroke: rgb(0, 0, 0);">
+                            </rect>
+                            <rect class="line3__bars-menu" x="69.79" y="300" width="369.025" height="36.329" style="stroke: rgb(2, 2, 2);">
+                            </rect>
+                        </svg>
+                    </button>
+                    <!-- Boton logo -->
+                    <a href="../index.php">
+                        <div class="containerlogo">
+                            <img class="logo" loading="lazy" src="img/Violeta-Logo.png">
+                        </div>
+                    </a>
+                    <!-- Boton tienda -->
+                    <a class="nav-item" href="../store.php">
+                        <h2>
+                            <svg class="animateicon" xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);">
+                                <path d="M19.148 2.971A2.008 2.008 0 0 0 17.434 2H6.566c-.698 0-1.355.372-1.714.971L2.143 7.485A.995.995 0 0 0 2 8a3.97 3.97 0 0 0 1 2.618V19c0 1.103.897 2 2 2h14c1.103 0 2-.897 2-2v-8.382A3.97 3.97 0 0 0 22 8a.995.995 0 0 0-.143-.515l-2.709-4.514zm.836 5.28A2.003 2.003 0 0 1 18 10c-1.103 0-2-.897-2-2 0-.068-.025-.128-.039-.192l.02-.004L15.22 4h2.214l2.55 4.251zM10.819 4h2.361l.813 4.065C13.958 9.137 13.08 10 12 10s-1.958-.863-1.993-1.935L10.819 4zM6.566 4H8.78l-.76 3.804.02.004C8.025 7.872 8 7.932 8 8c0 1.103-.897 2-2 2a2.003 2.003 0 0 1-1.984-1.749L6.566 4zM10 19v-3h4v3h-4zm6 0v-3c0-1.103-.897-2-2-2h-4c-1.103 0-2 .897-2 2v3H5v-7.142c.321.083.652.142 1 .142a3.99 3.99 0 0 0 3-1.357c.733.832 1.807 1.357 3 1.357s2.267-.525 3-1.357A3.99 3.99 0 0 0 18 12c.348 0 .679-.059 1-.142V19h-3z"></path>
+                            </svg>
+
+                        </h2>
+                    </a>
+                    <!-- menu desplegable area -->
+                    <div class="row collapse navbar-collapse" id="navbarsExample01">
+                        <div class="col-md-4">
+                            <ul class="navbar-nav me-auto mb-2">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about.php">Sobre nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact.php">Contacto</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">Servicios</a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="faciales.php">Faciales.</a></li>
+                                        <li><a class="dropdown-item" href="masajes.php">Masajes relajantes.</a></li>
+                                        <li><a class="dropdown-item" href="tonificacion.php">Tonificación corporal.</a></li>
+                                        <li><a class="dropdown-item" href="lifting.php">Lifting de pestañas.</a></li>
+                                        <li><a class="dropdown-item" href="extensiones.php">Extensiones de pestañas.</a></li>
+                                        <li><a class="dropdown-item" href="cejas.php">Diseño de cejas.</a></li>
+                                        <li><a class="dropdown-item" href="maquillaje.php">Maquillaje profesional.</a></li>
+
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 headimagen">
+                            <div class="navbar-nav me-auto mb-2">
+                                <div class="nav-item">
+                                    <img class="imagendespegable" loading="lazy" src="img/header/menu-img.png">
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="navbar-nav me-auto mb-2">
+                                <div class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <svg class="despegableicono" xmlns="http://www.w3.org/2000/svg" viewBox='0 0 25 25' fill="#0000" width="48" height="48">
+                                            <path fill="#000000" d="m11.42,21.81526a1.004,1.004 0 0 0 1.16,0c0.304,-0.217 7.449,-5.375 7.42,-11.815c0,-4.411 -3.589,-8 -8,-8s-8,3.589 -8,7.996c-0.029,6.444 7.116,11.602 7.42,11.819zm0.58,-17.815c3.309,0 6,2.691 6,6.004c0.021,4.438 -4.388,8.423 -6,9.731c-1.611,-1.308 -6.021,-5.293 -6,-9.735c0,-3.309 2.691,-6 6,-6z" id="svg_1" />
+                                            <ellipse stroke="null" ry="4" rx="4" id="svg_7" cy="10" cx="12" fill="#000000" />
+                                            <ellipse ry="2" rx="2" id="svg_9" cy="10" cx="12" stroke="null" fill="#ffff" />
+                                        </svg>
+                                        Location
+                                    </a>
+                                </div>
+                                <div class="nav-item">
+                                    <a class="nav-link" href="https://wa.me/5217717051921" target="_blank">
+                                        <svg class="despegableicono" xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24">
+                                            <path d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z" />
+                                        </svg>
+                                        +52 1 771 705 1921
+                                    </a>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- menu desplegable area end -->
+                </div>
+            </nav>
+        </section>
+        <!-- video de fondo -->
+        <video muted autoplay loop>
+            <source src="img/video/header-video.mp4" type="video/mp4">
+        </video>
+        <div class="capa"></div>
+        
+        <section class="menupegajoso">
+            <div class="row ">
+                <div class="col-md-4 uno">MENU</div>
+                <div class="col-md-4 dos">Reservas</div>
+                <div class="col-md-4 tres">de citas</div>
+            </div>
+        </section>
+    </header>
+    <!-- header area end -->
+
+    <main>
+        <!-- section-about-area -->
+        <section class="about animado">
+            <div class="container hola1">
+                <div class="section-title second-atitle pb-35">
+                    <h5><span class="line2">Lorem ipsum</span></h5>
+                    <h2 class="titulonegro">Lorem ipsum dolor sit amet</h2>
+                </div>
+                <div class="row align-items-center">
+                    <div class="col-lg-6 col-md-12 col-sm-12 pr-30">
+                        <div class="aboutimgcontenedor">
+                            <img class="aboutimagen" loading="lazy" src="img/about/img-about.png" alt="img">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 col-sm-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="textonegro">Curabitur convallis, lacus quis ultricies faucibus, orci velit dignissim nunc, et ullamcorper dolor quam non turpis. Nunc rutrum justo ut condimentum varius. Etiam non posuere diam, in luctus lacus. Proin ut sem id dui gravida sollicitudin id eu diam. Phasellus cursus felis leo, sed tempus nunc ultricies vitae. Vestibulum imperdiet pretium feugiat. Nulla nec varius nisi, id viverra tellus. Ut posuere faucibus est, quis semper velit tincidunt dictum.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- section-about-area-end -->
+
+        <!-- section-contenedor-uno-area -->
+        <section>
+            <div class="contenedortotal">
+                <div class="contenedortexto ">
+                    <div class="container contenido ">
+                        <h2 class="titulo animado">Lorem ipsum </h2>
+                        <p class="texto animado ">Cras dui odio, posuere ac ligula vel, pharetra porta tellus. Duis quis purus tortor. Vivamus mattis dui ac vestibulum laoreet.</p>
+                        <a href="#" class="btn boton animado">Lorem ipsum</a>
+                    </div>
+                </div>
+                <div class="contenedorimagen">
+                    <img class="imagencontent" src="img/content/bg-main.png" loading="lazy" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- section-contenedor-uno-area-end -->
+
+        <!-- section-contenedor-dos-area -->
+        <section class="">
+            <div class="contenedortotal ">
+                <div class="contenedorimagen portatil">
+                    <img class="imagencontent" src="img/content/bg-main.png" loading="lazy" alt="">
+                </div>
+                <div class="contenedortexto">
+                    <div class="container contenido">
+                        <h2 class="titulo animado">Lorem ipsum </h2>
+                        <p class="texto animado">Cras dui odio, posuere ac ligula vel, pharetra porta tellus. Duis quis purus tortor. Vivamus mattis dui ac vestibulum laoreet.</p>
+                        <a href="#" class="btn boton animado">Lorem ipsum</a>
+                    </div>
+                </div>
+                <div class="contenedorimagen resposive">
+                    <img class="imagencontent" src="img/content/bg-main.png" loading="lazy" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- section-contenedor-dos-area-end -->
+
+        <!-- section-contenedor-tres-area -->
+        <section>
+            <div class="contenedortotal">
+                <div class="contenedortexto">
+                    <div class="container contenido">
+                        <h2 class="titulo animado">Lorem ipsum </h2>
+                        <p class="texto animado">Cras dui odio, posuere ac ligula vel, pharetra porta tellus. Duis quis purus tortor. Vivamus mattis dui ac vestibulum laoreet.</p>
+                        <a href="#" class="btn boton animado">Lorem ipsum</a>
+                    </div>
+                </div>
+                <div class="contenedorimagen">
+                    <img class="imagencontent" src="img/content/bg-main.png" loading="lazy" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- section-contenedor-tres-area-end -->
+
+        <!-- section-contenedor-cuatro-area -->
+        <section class="">
+            <div class="contenedortotal ">
+                <div class="contenedorimagen portatil">
+                    <img class="imagencontent" src="img/content/bg-main.png" loading="lazy" alt="">
+                </div>
+                <div class="contenedortexto">
+                    <div class="container contenido">
+                        <h2 class="titulo animado">Lorem ipsum </h2>
+                        <p class="texto animado">Cras dui odio, posuere ac ligula vel, pharetra porta tellus. Duis quis purus tortor. Vivamus mattis dui ac vestibulum laoreet.</p>
+                        <a href="#" class="btn boton animado">Lorem ipsum</a>
+                    </div>
+                </div>
+                <div class="contenedorimagen resposive">
+                    <img class="imagencontent" src="img/content/bg-main.png" loading="lazy" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- section-contenedor-cuatro-area-end -->
+
+        <!-- section-contenedor-con-imagenes -->
+        <section>
+            <div class="imagenesdoblescontenedor">
+                <div class="imagendoble">
+                    <img src="https://static8.depositphotos.com/1177973/1037/i/600/depositphotos_10379678-stock-photo-composition-of-funds-for-their.jpg" loading="lazy" alt="">
+                    <img class="top" src="https://st4.depositphotos.com/2627021/20312/i/600/depositphotos_203120966-stock-photo-spa-concept-massage-stones-with.jpg" width="100%" loading="lazy" alt="">
+                    <h2 class="span_img_palabras titulo">Lorem ipsum</h2>
+
+                </div>
+                <div class="imagendoble">
+                    <img src="https://st4.depositphotos.com/2627021/20312/i/600/depositphotos_203120966-stock-photo-spa-concept-massage-stones-with.jpg" loading="lazy" alt="">
+                    <img class="top" src="https://static8.depositphotos.com/1177973/1037/i/600/depositphotos_10379678-stock-photo-composition-of-funds-for-their.jpg" width="100%" loading="lazy" alt="">
+                    <h2 class="span_img_palabras titulo">Lorem ipsum</h2>
+
+                </div>
+            </div>
+        </section>
+        <!-- section-contenedor-con-imagenes-end -->
+
+        <!-- section-suscription-area -->
+        <section>
+            <form class="container mail">
+                <div class="correo">
+                    <input type="email" placeholder="E-MAIL">
+                </div>
+                <div class="suscripcion">
+                    <input type="submit" placeholder="enviar">
+                </div>
+            </form>
+        </section>
+        <!-- section-suscription-area-end -->
+
+        <!-- section-tarjetas-area -->
+        <section>
+            <div class="container contenedortarjetas">
+                <div class="tarjetauno animado">
+                    <p class="texto">Curabitur convallis, lacus quis ultricies faucibus, orci velit dignissim nunc, et ullamcorper dolor quam non turpis.</p>
+                    <h2 class="titulo">Lorem ipsum</h2>
+                </div>
+                <div class="tarjetados animado">
+                    <h2 class="titulo">Lorem ipsum</h2><br>
+                    <p class="resaltado">Sed vitae blandit justo, at cursus massa</p>
+                    <h2 class="titulo">Curabitur convallis</h2>
+                </div>
+            </div>
+        </section>
+        <!-- section-tarjetas-area-end -->
+
+
+        <!-- section-galeria-de-imagenes -->
+        <section class="gallery">
+            <div class="slider">
+                <img src="img/slider/gallery_01.png" loading="lazy" alt="" class="slider1">
+                <img src="img/slider/gallery_02.png" loading="lazy" alt="" class="slider2">
+                <img src="img/slider/gallery_03.png" loading="lazy" alt="" class="slider3">
+                <img src="img/slider/gallery_04.png" loading="lazy" alt="" class="slider4">
+            </div>
+            <div class="slider">
+                <img src="img/slider/gallery_05.png" loading="lazy" alt="" class="slider1">
+                <img src="img/slider/gallery_06.png" loading="lazy" alt="" class="slider2">
+                <img src="img/slider/gallery_07.png" loading="lazy" alt="" class="slider3">
+                <img src="img/slider/gallery_08.png" loading="lazy" alt="" class="slider4">
+            </div>
+            <div class="slider">
+                <img src="img/slider/gallery_09.png" loading="lazy" alt="" class="slider1">
+                <img src="img/slider/gallery_10.png" loading="lazy" alt="" class="slider2">
+                <img src="img/slider/gallery_11.png" loading="lazy" alt="" class="slider3">
+                <img src="img/slider/gallery_12.png" loading="lazy" alt="" class="slider4">
+            </div>
+        </section>
+        <!-- section-galeria-de-imagenes-end -->
+
+        <!-- contenedor-de-mapa -->
+        <section class="mapcontainer">
+            <iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d3748.622946578191!2d-98.7874279!3d20.0243337!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjDCsDAxJzI3LjYiTiA5OMKwNDcnMTQuNyJX!5e0!3m2!1sen!2smx!4v1684337288070!5m2!1sen!2smx" width="100%" height="300" style="border:0;" allowfullscreen="true" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <!-- contenedor-de-mapa-end -->
+
+        <!-- section-boton-de-contacto -->
+        <div>
+            <a href="#" class="btn-whatsapp">
+                <svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M18.403 5.633A8.919 8.919 0 0 0 12.053 3c-4.948 0-8.976 4.027-8.978 8.977 0 1.582.413 3.126 1.198 4.488L3 21.116l4.759-1.249a8.981 8.981 0 0 0 4.29 1.093h.004c4.947 0 8.975-4.027 8.977-8.977a8.926 8.926 0 0 0-2.627-6.35m-6.35 13.812h-.003a7.446 7.446 0 0 1-3.798-1.041l-.272-.162-2.824.741.753-2.753-.177-.282a7.448 7.448 0 0 1-1.141-3.971c.002-4.114 3.349-7.461 7.465-7.461a7.413 7.413 0 0 1 5.275 2.188 7.42 7.42 0 0 1 2.183 5.279c-.002 4.114-3.349 7.462-7.461 7.462m4.093-5.589c-.225-.113-1.327-.655-1.533-.73-.205-.075-.354-.112-.504.112s-.58.729-.711.879-.262.168-.486.056-.947-.349-1.804-1.113c-.667-.595-1.117-1.329-1.248-1.554s-.014-.346.099-.458c.101-.1.224-.262.336-.393.112-.131.149-.224.224-.374s.038-.281-.019-.393c-.056-.113-.505-1.217-.692-1.666-.181-.435-.366-.377-.504-.383a9.65 9.65 0 0 0-.429-.008.826.826 0 0 0-.599.28c-.206.225-.785.767-.785 1.871s.804 2.171.916 2.321c.112.15 1.582 2.415 3.832 3.387.536.231.954.369 1.279.473.537.171 1.026.146 1.413.089.431-.064 1.327-.542 1.514-1.066.187-.524.187-.973.131-1.067-.056-.094-.207-.151-.43-.263"></path>
+                </svg>
+            </a>
+        </div>
+        <!-- section-boton-de-contacto-end -->
+    </main>
+    
+    <!-- section-pie-de-pagina -->
+    <footer>
+        <div class="row containerfooter">
+            <div class="col-md-3 logofooter ">
+                <img class="logo" loading="lazy" src="img/Violeta-Logo.png">
+            </div>
+            <div class="col-md-3 footercontainer ">
+                <h2 class="footertitulo">Contacto</h2>
+                <p class="textofooter">
+                    <a href="#">Direccion:e5htdfsrtjgntjgf ntjguisjd fsuedxfbcfu isghndjxfc ugs</a><br>
+                    <a href="#">Email:TGF@rhgd.com</a><br>
+                    <a href="#">Telefono:4564676532245</a><br>
+                </p>
+            </div>
+            <div class="col-md-3 footercontainer ">
+                <h2 class="footertitulo">Más informacion</h2>
+                <p class="textofooter">
+                    <a href="#">Politicas</a><br>
+                    <a href="#">Terminos y condiciones</a><br>
+                </p>
+            </div>
+            <div class="col-md-3 footercontainer ">
+                <h2 class="footertitulo">Redes</h2>
+                <p class="textofooter">
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);">
+                            <path d="M13.397 20.997v-8.196h2.765l.411-3.209h-3.176V7.548c0-.926.258-1.56 1.587-1.56h1.684V3.127A22.336 22.336 0 0 0 14.201 3c-2.444 0-4.122 1.492-4.122 4.231v2.355H7.332v3.209h2.753v8.202h3.312z"></path>
+                        </svg>
+                    </a><br>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);">
+                            <path d="M11.999 7.377a4.623 4.623 0 1 0 0 9.248 4.623 4.623 0 0 0 0-9.248zm0 7.627a3.004 3.004 0 1 1 0-6.008 3.004 3.004 0 0 1 0 6.008z"></path>
+                            <circle cx="16.806" cy="7.207" r="1.078"></circle>
+                            <path d="M20.533 6.111A4.605 4.605 0 0 0 17.9 3.479a6.606 6.606 0 0 0-2.186-.42c-.963-.042-1.268-.054-3.71-.054s-2.755 0-3.71.054a6.554 6.554 0 0 0-2.184.42 4.6 4.6 0 0 0-2.633 2.632 6.585 6.585 0 0 0-.419 2.186c-.043.962-.056 1.267-.056 3.71 0 2.442 0 2.753.056 3.71.015.748.156 1.486.419 2.187a4.61 4.61 0 0 0 2.634 2.632 6.584 6.584 0 0 0 2.185.45c.963.042 1.268.055 3.71.055s2.755 0 3.71-.055a6.615 6.615 0 0 0 2.186-.419 4.613 4.613 0 0 0 2.633-2.633c.263-.7.404-1.438.419-2.186.043-.962.056-1.267.056-3.71s0-2.753-.056-3.71a6.581 6.581 0 0 0-.421-2.217zm-1.218 9.532a5.043 5.043 0 0 1-.311 1.688 2.987 2.987 0 0 1-1.712 1.711 4.985 4.985 0 0 1-1.67.311c-.95.044-1.218.055-3.654.055-2.438 0-2.687 0-3.655-.055a4.96 4.96 0 0 1-1.669-.311 2.985 2.985 0 0 1-1.719-1.711 5.08 5.08 0 0 1-.311-1.669c-.043-.95-.053-1.218-.053-3.654 0-2.437 0-2.686.053-3.655a5.038 5.038 0 0 1 .311-1.687c.305-.789.93-1.41 1.719-1.712a5.01 5.01 0 0 1 1.669-.311c.951-.043 1.218-.055 3.655-.055s2.687 0 3.654.055a4.96 4.96 0 0 1 1.67.311 2.991 2.991 0 0 1 1.712 1.712 5.08 5.08 0 0 1 .311 1.669c.043.951.054 1.218.054 3.655 0 2.436 0 2.698-.043 3.654h-.011z"></path>
+                        </svg>
+                    </a><br>
+                    <a href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(255, 255, 255, 1);">
+                            <path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"></path>
+                        </svg>
+                    </a><br>
+                </p>
+            </div>
+        </div>
+    </footer>
+    <!-- section-pie-de-pagina-end -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script src="js/loader.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/menupegajoso.js"></script>
+    <script src="js/animaciones.js"></script>
+
+
+</body>
+
+</html>

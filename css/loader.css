@@ -1,0 +1,22 @@
+.contenedorloader {
+    position:fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: #b3b3b3;
+    z-index: 999999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .5s ease;
+}
+
+.custom-loader {
+  width:70px;
+  height:70px;
+  border-radius:50%;
+  border:8px solid;
+  border-color:#E4E4ED;
+  border-right-color: #F48F8F;
+  animation:s2 1s infinite linear;
+}
+@keyframes s2 {to{transform: rotate(1turn)}}
